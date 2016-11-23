@@ -16,10 +16,18 @@ module.exports = function(grunt) {
         },
         src: ['css/styles.css']
       }
+    },
+    uncss: {
+      dist: {
+        files: {
+          'css/styles.css': ['index.html']
+        }
+      }
     }
   });
 
   //Execute task
   grunt.registerTask('default', [
-    'csslint']);
+    'csslint',
+    'uncss']);
 }
