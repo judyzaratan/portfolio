@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/mochicat8/portfolio/issues"
   },
-  "homepage": "https://github.com/mochicat8/portfolio#readme"
+  "homepage": "https://github.com/mochicat8/portfolio#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-csslint": "^2.0.0",
+    "load-grunt-tasks": "^3.5.2"
+  }
 }
