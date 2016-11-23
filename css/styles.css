@@ -1,13 +1,13 @@
 body {
-    font-family: 'Quicksand', sans-serif;
     color: #2d3c49;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 400;
 }
 
 .flex_container {
   display: flex;
-  flex-wrap: nowrap;
   flex-direction: column;
+  flex-wrap: nowrap;
 }
 
 .text-dim {
@@ -26,6 +26,6 @@ hr {
     color: #7d97ad;
 }
 
-figcaption.uppercase {
+.uppercase {
   text-transform: uppercase;
 }
