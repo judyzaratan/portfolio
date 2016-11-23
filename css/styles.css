@@ -4,6 +4,10 @@ body {
     font-weight: 400;
 }
 
+.flex_container {
+  display: flex;
+}
+
 .text-dim {
     color: #7d97ad;
 }
