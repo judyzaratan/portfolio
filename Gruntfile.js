@@ -6,7 +6,7 @@ module.exports = function(grunt) {
     csslint: {
       strict: {
         options: {
-          import: 2
+          import: false
         },
       src: ['css/styles.css']
       },
