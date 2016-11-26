@@ -12,6 +12,10 @@ body {
     font-weight: 400;
 }
 
+#projects {
+  text-align: center;
+
+}
 .flex_container {
   display: flex;
   flex-direction: column;
@@ -37,7 +41,7 @@ header {
 #About{
   background-color: green;
 }
-nav {
+nav, footer {
   text-align: center;
 }
 ul {
@@ -56,11 +60,14 @@ li:last-of-type {
 }
 
 @media screen and (max-width: 375px) {
-  figure {
-    display: none;
-  }
+  .
   .header_text {
     font-size: 1.2em;
     text-align: center;
+  }
+  .pictures {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }

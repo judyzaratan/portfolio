@@ -20,7 +20,10 @@
   <div class="flex_container">
     <header>
         <figure>
-          <img src="http://placehold.it/250x150">
+          <picture>
+            <source srcset="http://placehold.it/90x90" media="(max-width: 375px)">
+            <img src="http://placehold.it/200x200">
+          </picture>
         </figure>
         <div class="header_text">
           <h1>Judy Zaratan</h1>
@@ -38,21 +41,24 @@
 
     <section id="projects">
       <h2>Projects</h2>
-      <div>
-        <figure class="app1">
+      <div class="pictures">
+        <figure id="app1"class="app">
           <picture>
+            <source srcset="http://placehold.it/90x90" media="(max-width: 375px)">
             <img src="http://placehold.it/250x150">
           </picture>
-          <figcaption class="uppercase">Appify</figcaption>
+          <figcaption  class="uppercase">Appify</figcaption>
         </figure>
-        <figure class="app2">
+        <figure id="app2" class="app">
           <picture>
+            <source srcset="http://placehold.it/90x90" media="(max-width: 375px)">
             <img src="http://placehold.it/250x150">
           </picture>
           <figcaption class="uppercase">Cats</figcaption>
         </figure>
-        <figure class="app3">
+        <figure id="app3" class="app">
           <picture>
+            <source srcset="http://placehold.it/90x90" media="(max-width: 375px)">
             <img src="http://placehold.it/250x150">
           </picture>
           <figcaption class="uppercase">Coffee</figcaption>
@@ -66,7 +72,8 @@
     </section>
 
     <footer id="contact">
-      <div class="social">
+      <h2>Contact Me</h2>
+      <div class="social_icons">
         <a class="fa fa-linkedin-square" href="#"></a>
         <a class="fa fa-github" href="#"></a>
         <a class="fa fa-codepen" href="#"></a>
