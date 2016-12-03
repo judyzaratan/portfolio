@@ -1,11 +1,5 @@
-  /*html, body, div {
-    height: 100%;
-    width: 100%;
-  }*/
 
-/*img, embed, object, video {
-  max-width: 100%;
-}*/
+
 body {
     color: #2d3c49;
     font-family: 'Quicksand', sans-serif;
@@ -58,7 +52,9 @@ li {
 li:last-of-type {
   padding-right: 0;
 }
-
+a {
+  text-decoration: none;
+}
 img {
   margin-right: auto;
   margin-left: auto;
@@ -76,7 +72,12 @@ img {
     flex-direction: column;
   }
 }
-
+a.fa {
+  margin-right: 10%;
+}
+a.fa:last-of-type{
+  margin-right: 0;
+}
 img {
   width: 5em;
   height: 5em;
