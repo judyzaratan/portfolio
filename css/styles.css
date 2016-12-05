@@ -2,45 +2,38 @@
 html, body {
   max-width: 100%;
   max-height: 100%;
+  margin: 0 0 10% 0  ;
 }
 body {
     color: #2d3c49;
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
 }
-img, embed, object, video {
+img, embed, object, video, figure {
   max-width: 100%;
+  max-height: 100%;
 }
 h2, figcaption {
   text-align: center;
 }
 
-.projects {
-  background-color: blue;
-}
 .flex_container {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
 }
-
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .uppercase {
   text-transform: uppercase;
 }
 
-header {
-  background-image: url("../images/pexels-photo.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-#navigation_bar {
-  background-color: red;
-}
 
-#About{
-  background-color: green;
-}
+
 nav, footer {
   text-align: center;
 }
@@ -65,6 +58,13 @@ li:last-of-type {
 a {
   text-decoration: none;
 }
+
+h5 {
+  margin: 0 0 0 0;
+}
+h1 {
+  margin: 0.1em 0 0.1em 0 ;
+}
 img {
   margin-right: auto;
   margin-left: auto;
@@ -74,47 +74,38 @@ img {
   font-size: 1.2em;
   text-align: center;
 }
-@media screen and (max-width: 400px) {
-
-
-  .pictures {
-    display: flex;
-    flex-direction: column;
-  }
-}
 a.fa {
   margin-right: 10%;
 }
 a.fa:last-of-type{
   margin-right: 0;
 }
-img {
-  width: 5em;
-  height: 5em;
+
+@media screen and (max-width: 400px) {
+  .logo {
+    margin: 0 auto 0 auto;
+  }
+ .big-photo {
+   width: 100%;
+ }
+  .pictures {
+    flex-direction: column;
+  }
 }
-/*@media screen and (min-width: 401px) and (max-width: 800px)  {
-  .header_text {
-    font-size: 1.2em;
-    text-align: center;
-  }
 
+@media screen and (min-width: 401px) and (max-width: 800px)  {
+  .header_text {
+    font-size: 1em;
+  }
   .pictures {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
   }
-}*/
+}
 
-/*@media screen and (min-width: 801px) and (max-width: 1400px) {
+@media screen and (min-width: 801px) and (max-width: 1400px) {
   .header_text {
-    font-size: 1.2em;
-    text-align: center;
+    font-size: 2em;
   }
-  .pictures {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-}*/
+}

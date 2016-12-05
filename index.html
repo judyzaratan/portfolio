@@ -13,14 +13,19 @@
   <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
 
 <!-- javascript -->
-  <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js">
+  </script>
 </head>
 
 <body>
   <div class="flex_container">
     <header>
         <figure class="logo">
-            <img src="images/Cube_heart.svg">
+          <img class="big-photo"
+          src="img/pexels-photo.jpg"
+          sizes="(max-width: 500px) 100vw, 80vw"
+          srcset="images/pexels-photo-small.jpg 800w,
+          images/pexels-photo-large.jpg 800w" alt="Laptop keyboard" />
         </figure>
         <div class="header_text">
           <h1>Judy Zaratan</h1>
@@ -40,24 +45,18 @@
       <h2>Featured Work</h2>
       <div class="pictures">
         <figure id="app1"class="app">
-            <img src="images/coffee.jpg" alt="Latte cup on table">
-          <figcaption>Coffee
-            <br><a href="#">https://www.github.com/mochicat8/Coffee</a>
-          </figcaption>
+            <img src="images/coffee-small.jpg" alt="Latte cup on table">
+          <figcaption>Coffee</figcaption>
         </figure>
         <figure id="app2" class="app">
-            <img src="images/bake_measurements.jpg" alt="Baking measurement
+            <img src="images/bake_measurements-small.jpg" alt="Baking measurement
             cups and spoons">
-          <figcaption>Bakery
-            <br><a href="#">https://www.github.com/mochicat8/Bakery</a>
-          </figcaption>
+          <figcaption>Bakery</figcaption>
         </figure>
         <figure id="app3" class="app">
-            <img src="images/camera-keys.jpg" alt="Vintage camera
+            <img src="images/camera-keys-small.jpg" alt="Vintage camera
             positioned on piano keys">
-          <figcaption>Capture
-            <br><a href="#">https://www.github.com/mochicat8/Capture</a>
-          </figcaption>
+          <figcaption>Capture</figcaption>
         </figure>
       </div>
     </section>
