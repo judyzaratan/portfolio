@@ -57,6 +57,11 @@ li:last-of-type {
 }
 a {
   text-decoration: none;
+  color: #2d3c49;
+}
+
+a:hover {
+  color: #7d97ad;
 }
 
 h5 {
