@@ -1,14 +1,14 @@
-
 html, body {
   max-width: 100%;
   max-height: 100%;
-  margin: 0 0 0 0 ;
+  margin: 0;
+  text-align: center;
 }
 
 body {
-    color: #2d3c49;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 400;
+  color: #2d3c49;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
 }
 
 img {
@@ -17,12 +17,7 @@ img {
 }
 
 h2, figcaption {
-  text-align: center;
   color: #02b3e4;
-}
-
-nav, footer {
-  text-align: center;
 }
 
 ul {
@@ -34,6 +29,7 @@ ul {
 figcaption > a {
   font-size: 0.5em;
 }
+
 li {
   display: inline;
   padding-right: 10%;
@@ -42,6 +38,7 @@ li {
 li:last-of-type {
   padding-right: 0;
 }
+
 a {
   text-decoration: none;
   color: #2D3C49;
@@ -50,24 +47,22 @@ a {
 a:hover {
   color: #7d97ad;
 }
-
-h5 {
-  margin: 0 0 0 0;
+h1, h5 {
+  margin: .1em 0 .1em 0 ;  
 }
 h1 {
-  margin: 0.1em 0 0.1em 0 ;
+
   color: #02b3e4;
 }
+
 img {
-  margin-right: auto;
+  margin-right: auto;;
   margin-left: auto;
   display: block;
 }
 
-
-.header_text {
+.header-text {
   font-size: 1.2em;
-  text-align: center;
 }
 
 a.fa {
@@ -78,58 +73,69 @@ a.fa:last-of-type{
   margin-right: 0;
 }
 
-.flex_container {
+.flex-container {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
 }
+
 .pictures {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .uppercase {
   text-transform: uppercase;
 }
 
+/*Media Queries*/
 @media screen and (max-width: 400px) {
-  .logo {
+  .header-photo {
     margin: 0 auto 0 auto;
   }
+
  .big-photo {
    width: 100%;
  }
+
   .pictures {
     flex-direction: column;
   }
-  .about_text {
+
+  .about-text {
     text-align: justify;
     margin: 0 3em 0 3em;
   }
 }
 
 @media screen and (min-width: 401px) and (max-width: 800px)  {
-  .header_text {
+  .header-text {
     font-size: 1em;
+  }
+
+  .pictures {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .about-text {
+    margin: 0 9em 0 9em;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1440px) {
+  .header-text {
+    font-size: 2em;
   }
   .pictures {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-}
-    .about_text {
-      text-align: justify;
-      margin: 0 9em 0 9em;
-    }
-}
-
-@media screen and (min-width: 801px) and (max-width: 1440px) {
-  .header_text {
-    font-size: 2em;
   }
-  .about_text {
-    text-align: justify;
+  .about-text {
     margin: 0 20em 0 20em;
   }
 }
