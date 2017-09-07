@@ -3,7 +3,7 @@ mochicat8.github.io
 **mochicat8.github.io/portfolio** is my personal/project website. You will most likely find it under [judyzaratan.com](http://www.judyzaratan.com).
 
 ## Domains
-* see [CNAME](https://github.com/mochicat8/portfolio/CNAME) file
+* see [CNAME](https://github.com/mochicat8/portfolio/blob/master/CNAME) file
 
 ## Dependencies
 * Bootstrap
@@ -17,11 +17,10 @@ mochicat8.github.io
 ## How to Use ##
 * Visit live version: [www.judyzaratan.com](http://www.judyzaratan.com)
 
-* Local:
+* To run locally:
   1. Clone repository
   2. Install Dependencies via package.json
     `npm install`
-  3. Install ImageMagick to provide resolution files.  
-  4. Open `index.html` in browser of choice.
-
-  
+  3. Install ImageMagick to provide different resolution files.  
+  4. Run Grunt to automatically utilize ImageMagick instead of using CLI
+  5. Open `index.html` in a browser.
