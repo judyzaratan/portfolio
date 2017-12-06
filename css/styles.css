@@ -115,6 +115,9 @@ a.fa:last-of-type{
   .header-text {
     font-size: 1em;
   }
+  .big-photo {
+    width: 75%;
+  }
 
   .pictures {
     flex-direction: row;
@@ -130,6 +133,9 @@ a.fa:last-of-type{
 @media screen and (min-width: 801px) and (max-width: 1440px) {
   .header-text {
     font-size: 2em;
+  }
+  .big-photo {
+    width: 75%;
   }
   .pictures {
     flex-direction: row;

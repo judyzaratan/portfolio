@@ -1,9 +1,9 @@
 mochicat8.github.io
 ======
-**mochicat8.github.io/portfolio** is my personal/project website. You will most likely find it under [judyzaratan.com](http://www.judyzaratan.com).
+**judyzaratan.github.io/portfolio** is my personal/project website. You will most likely find it under [judyzaratan.com](http://www.judyzaratan.com).
 
 ## Domains
-* see [CNAME](https://github.com/mochicat8/portfolio/blob/master/CNAME) file
+* see [CNAME](https://github.com/judyzaratan/portfolio/blob/master/CNAME) file
 
 ## Dependencies
 * Bootstrap
@@ -24,3 +24,9 @@ mochicat8.github.io
   3. Install ImageMagick to provide different resolution files.  
   4. Run Grunt to automatically utilize ImageMagick instead of using CLI
   5. Open `index.html` in a browser.
+
+## Running ImageMagick
+
+
+## Resources
+* [Srcset and Sizes for Images](https://ericportis.com/posts/2014/srcset-sizes/)
