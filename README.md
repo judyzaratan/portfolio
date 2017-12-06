@@ -1,4 +1,4 @@
-mochicat8.github.io
+judyzaratan.github.io
 ======
 **judyzaratan.github.io/portfolio** is my personal/project website. You will most likely find it under [judyzaratan.com](http://www.judyzaratan.com).
 
